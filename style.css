@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #201313;
+}
+.save{
+    border: none;
+    font-size: medium;
+    margin-right: px;
+    text-decoration: none;
+    color: white;
+    background-color: #201313;
+    font-family: "JetBrains Mono", monospace;
+}
+
+nav> span{
+    color: white;
+    margin-right: 27px
+}
+.save:hover{
+    color: #ffbf20;
+    text-decoration: underline;
+}
+.log{
+    font-size: medium;
+    /* margin-right: 40px; */
+    text-decoration: none;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+}
+.log:hover{
+    color: #ffbf20;
+    text-decoration: underline;
+}
+
+.cos{
+    font-size: medium;
+    /* margin-right: 40px; */
+    text-decoration: none;
+    color: #ffbf20;
+    font-family: "JetBrains Mono", monospace;
+}
+.cos:hover{
+    color: #ffbf20;
+    text-decoration: underline;
+}
+.bot{
+    margin-right: 200px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-family: "Libertinus Sans", sans-serif;  
+}
+.let{
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: #ce2d2d;
+    /* color: white; */
+    margin-left: 200px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: large;
+}
+.let:hover{
+    outline:2px solid #ce2d2d;   
+}
+.get{
+    color: white;
+    text-decoration: none;
+}
+.bar{
+    position: fixed;
+    border: 1px solid #201313;
+    width: 100%;
+    margin: 0px auto;
+    background-color: #201313;
+    padding: 20px 0px 20px 20px;
+}
+.me{
+    border: 1px solid #201313;
+    width: 50%;
+    min-height: auto;
+    padding-top: 220px;
+    margin: auto;
+    color: white;
+    font-family: "Libertinus Sans", sans-serif; 
+    font-size: 29.5px;
+}
+.by{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2opx;
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid whitesmoke; */
+}
+h1{
+    margin-bottom: 20px;
+}
+.ght{
+    color: #ffd777;
+}
+.ght:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+.pro{
+    padding: 15px;
+    border-radius: 24px;
+    border: 1px solid whitesmoke;
+    font-family: "JetBrains Mono", monospace;
+    font-size: large;
+    text-decoration: none;
+    margin: 35px 15px 5px 0px;
+    background-color: #201313;
+    color: white;
+    cursor: pointer;
+}
+.pro:hover{
+    background-color: #ffd777;
+}
+.all{
+     padding: 15px;
+    border-radius: 24px;
+    border: none;
+    font-family: "JetBrains Mono", monospace;
+    font-size: large;
+    text-decoration: none;
+    margin: 35px 15px 5px 0px;
+    background-color: #ffbf20;
+    color: black;
+    cursor: pointer;
+}
+.more{
+    font-family: "JetBrains Mono", monospace;
+    font-size: large;
+    background-color: #201313;
+    color: white;
+    text-decoration: underline dotted;
+}
+.who{
+    margin-top: 40px;
+}
+.ai{
+    font-size: 23.25px;
+}
+.the:hover{
+        color: #ffbf20;
+        cursor: pointer;
+}
+.more:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+.oct{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.who b> span:hover{
+    color: #ffbf20;
+}
+.ran{
+    color: #ffd777;
+    cursor: pointer;
+}
+.ran:hover{
+    color: #ffbf20;
+}
+.news{
+    font-size: 16px;
+    margin-top:10px ;
+}
+.sub{
+    min-height: auto;
+    margin: 90px 0 0 0;
+    width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #301c1c
+}
+.sign{
+    color: #faf9f9;
+    margin-bottom: 22px;
+}
+.email{
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    margin-right: 35px;
+    color: #eae6e4;
+}
+.in{
+    width: 370px;
+    margin-top: 35px;
+    border-bottom: 1px solid wheat;
+    background-color: #301c1c;
+}
+.btn{
+    padding: 20px;
+    border-radius: 35px;
+    border: 2px solid black;
+    background-color: #ce2d2d;
+    font-family: "JetBrains Mono", monospace;
+    font-size: large;
+    width: 160px;
+}
+.btn:hover{
+    outline: 2px solid #ce2d2d;
+}
+.cri{
+    color: white;
+    text-decoration: none;
+}
+.cri:hover{
+    background-color: #ce2d2d;
+}
+.on{
+    width: 700px;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #301c1c;
+    font-size: 21px;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 0;
+}
+.on a{
+    color: #ffd777;
+    text-decoration: underline dotted;
+}
+.on a:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+
+.what h3{
+    margin-top: 80px;
+}
+
+.what h3:hover{
+    color: #ffbf20;
+}
+.what p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.A> span{
+    color: #ffd777;
+    font-size: 19PX;
+}
+.A> span:hover{
+    color: #ffbf20;
+}
+.B> span{
+    text-transform: uppercase;
+    font-size: 18PX;
+}
+
+.B> span:hover{
+    color: #ffbf20;
+}
+
+.musa {
+    width: 350px;
+    border:transparent;
+    margin: 40px auto;                     
+    /* gap: 15px;  */
+    font-size: 22.5px;
+}
+
+.aminah{
+    margin-right: 5px;
+    color: white;
+    text-decoration: underline dotted;
+}
+
+.aminah:hover{
+    color: #ffbf20;
+    text-decoration: underline;
+}
+
+.yah{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #ffbf20;
+}
+footer{
+    border-top: 2px solid #301c1c;
+    margin: 65px 30px;
+    padding-top: 50px;
+}
+
+.tho{
+    margin: 0 100px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot-p{
+    width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tho h1{
+    color: white;
+    font-size: 50px;
+}
+
+.see-p{
+    color: #eae6de;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    margin: 5px;   
+}
+
+.see-p:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+
+.see-u{
+    color: #ffd777;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 5px;  
+}
+
+.see-u:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+
+.see-q{
+    color: #eae6de;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    margin: 5px;   
+}
+
+.see-q:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+
+.see-l{
+    color: #eae6de;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.see-l:hover{
+    color: #ffbf20;
+    text-decoration: none;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+
+.talk-q{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.uk{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.inc{
+    color: #c1bab2;
+}
+
+.us{
+    margin-right: 200px;
+}
+
+.code-0{
+    color: #c1bab2;
+    margin-right: 10px;
+    text-decoration: underline dotted;
+}
+
+.code-0:hover{
+    text-decoration: none;
+}
